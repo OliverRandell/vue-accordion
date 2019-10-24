@@ -1,0 +1,120 @@
+
+// COLOURS
+// GREYS
+$grey-1:            #c9cbd4;
+$grey-2:            #E8E9EB;
+$grey-3:            #D8D9DD; //BORDERS
+$grey-4:            #C9CBD4;
+$grey-5:            #A5A9B8;
+$grey-6:            #898c98;
+$grey-7:            #4E5365; // SECONDARY NAVY!
+$grey-8:            #363A4D;
+$grey-9:            #1D212D;
+
+$white:             #fff;
+$navy:              #3b4054; // TEXT
+$todayBlue:         #13a3eb;
+$todayBlueHover:    #1191d1;
+$todayGreen:        #52d85b;
+$todayAqua:         #49bf51;
+$todayPurple:       #7C7ADF;
+$todayMagenta:      #C66DBD;
+$todayRed:          #f77263;
+
+$primary:           $todayBlue;
+$primaryHover:      $todayBlueHover;
+$secondary:         $navy;
+$success:           $todayGreen;
+$warning:           $todayMagenta;
+$danger:            $todayRed;
+$background-colour: #f5f6f7;
+
+// FONTS
+@import url("https://use.typekit.net/tka7rwi.css");
+$text-secondary:                $secondary;
+
+// LAYOUT VARIABLES
+$sidebar-width: 8rem;
+$header-height: 4rem;
+$sidebarTriangleSize: 14px;
+
+//$boxShadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+$boxShadow: 0 0 6px rgba(0, 0, 0, 0.1);
+$transition: 250ms;
+
+// OVERWRITE BOOTSTRAP VARIABLES
+$font-family-sans-serif:        'Proxima Nova', sans-serif;
+$font-size-base:                0.95rem;
+$h1-font-size:                  $font-size-base * 2.5;
+$h2-font-size:                  $font-size-base * 2;
+$h3-font-size:                  $font-size-base * 1.75;
+$h4-font-size:                  $font-size-base * 1.5;
+$h5-font-size:                  $font-size-base * 1.25;
+$h6-font-size:                  $font-size-base;
+
+$border-radius:                 0.5rem;
+$border-radius-sm:              0.25rem;
+$border-radius-lg:              2rem;
+$border-color:                  $grey-3;
+$body-color:                    $grey-6;
+$headings-color:                $secondary;
+
+$line-height-base:              1.4;
+$input-btn-line-height:         1.2;
+
+// FORMS
+$label-margin-bottom:           0.2rem;
+$input-color:                   $secondary;
+$input-btn-padding-y:           0.5rem;
+$input-btn-padding-x:           0.75rem;
+$input-border-radius:           0.125rem;
+$input-placeholder-color:       $grey-6;
+$input-plaintext-color:         $input-placeholder-color;
+$input-focus-border-color:      $primary;
+$input-focus-box-shadow:        none;
+$custom-select-border-radius:   $input-border-radius;
+//$custom-select-indicator-color: $primary;
+$input-btn-focus-width:         0;
+$input-height:                  2.75rem;
+$form-group-margin-bottom:      1.5rem;
+
+// TABLES
+$table-cell-padding:            0.5rem;
+//$table-cell-padding-sm:       .3rem !default;
+
+$table-bg:                      $white;
+// $table-accent-bg:             rgba($black, .05) !default;
+// $table-hover-bg:              rgba($black, .075) !default;
+//$table-active-bg:             $table-hover-bg !default;
+
+// $table-border-width:          $border-width !default;
+$table-border-color:          $grey-3;
+
+// $table-head-bg:               $gray-200 !default;
+// $table-head-color:            $gray-700 !default;
+//
+// $table-dark-bg:               $gray-900 !default;
+// $table-dark-accent-bg:        rgba($white, .05) !default;
+// $table-dark-hover-bg:         rgba($white, .075) !default;
+// $table-dark-border-color:     lighten($gray-900, 7.5%) !default;
+// $table-dark-color:            $body-bg !default;
+//
+// $table-striped-order:         odd !default;
+//
+// $table-caption-color:         $text-muted !default;
+
+// MODALS
+$modal-lg:                          1200px;
+$modal-md:                          800px;
+$modal-sm:                          500px;
+
+// PROGRESS
+$progress-height:                   1.4rem;
+//$progress-font-size:                ($font-size-base * .75) !default;
+$progress-bg:                       $grey-2;
+$progress-border-radius:            $border-radius-lg;
+//$progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1) !default;
+$progress-bar-color:                $white;
+$progress-bar-bg:                   $white;
+//$progress-bar-animation-timing:     1s linear infinite !default;
+//$progress-bar-transition:           width .6s ease !default;
